@@ -1,5 +1,11 @@
 # 🤖 Hybrid AI Chatbot with Semantic Memory & LLM Learning
 
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![AI](https://img.shields.io/badge/AI-Hybrid%20Chatbot-purple)](#)
+[![FAISS](https://img.shields.io/badge/Vector%20DB-FAISS-orange)](https://github.com/facebookresearch/faiss)
+
+
 A production‑style chatbot that combines **intent classification**, **semantic vector memory**, and an **LLM fallback used as a teacher (not a replacement)**.
 
 The system improves over time by learning from conversations, discovering new intents, and retraining safely with human‑reviewable steps.
