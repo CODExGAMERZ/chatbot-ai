@@ -1,0 +1,226 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hi there",
+        "Hello there",
+        "Hey bot",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there! How can I help you?",
+        "Hey! Nice to talk to you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See you",
+        "Exit",
+        "Quit"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate it",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you",
+        "What are you",
+        "Tell me about yourself",
+        "What is this chatbot"
+      ],
+      "responses": [
+        "I am an AI chatbot built using Python and machine learning.",
+        "I'm a conversational AI designed to understand natural language.",
+        "I'm here to chat and help you."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me",
+        "I need help",
+        "What can you do",
+        "How can you help"
+      ],
+      "responses": [
+        "I can answer questions and chat with you.",
+        "I can help by responding to your messages.",
+        "Try asking me something!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Tell me the time",
+        "Current time",
+        "What is the time now"
+      ],
+      "responses": [
+        "I can't see the clock, but your system knows the time \ud83d\ude0a",
+        "Time flies when you're chatting!"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What is the date",
+        "Today's date",
+        "What day is it",
+        "Tell me the date"
+      ],
+      "responses": [
+        "I can't see the calendar, but your system knows the date \ud83d\ude0a",
+        "Every day is a great day to chat!"
+      ]
+    },
+    {
+      "tag": "installation",
+      "patterns": [
+        "How do I install this",
+        "Installation steps",
+        "How to set it up",
+        "How can I install this"
+      ],
+      "responses": [
+        "Installation instructions depend on the platform.",
+        "Please tell me which system you are using."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdfgh",
+        "random text",
+        "blah blah",
+        "something else",
+        "i have no idea"
+      ],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase?",
+        "Sorry, I didn't get that.",
+        "Can you say that in a different way?"
+      ]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "how are you",
+        "what's up",
+        "are you okay",
+        "how is it going"
+      ],
+      "responses": [
+        "I'm doing well. What would you like to talk about?",
+        "All good here. How can I help you today?",
+        "I'm here and ready to chat."
+      ]
+    },
+    {
+      "tag": "followup",
+      "patterns": [
+        "why",
+        "how",
+        "tell me more",
+        "explain",
+        "what do you mean"
+      ],
+      "responses": [
+        "Sure, let me explain that.",
+        "Here is a bit more information.",
+        "I'll try to explain it clearly."
+      ]
+    },
+    {
+      "tag": "auto_intent_1",
+      "patterns": [
+        "abe laude x likh rahe ho"
+      ],
+      "responses": [
+        "This is how it works. Feel free to ask a follow-up question.",
+        "This is how it works. I can explain this further if you want.",
+        "I can help explain this. I can explain this further if you want."
+      ]
+    },
+    {
+      "tag": "auto_intent_2",
+      "patterns": [
+        "kya mujhe inner view milega"
+      ],
+      "responses": [
+        "I can help explain this. Let me know if you want more details.",
+        "I can help explain this. Feel free to ask a follow-up question.",
+        "Here is a simple explanation. Let me know if you want more details."
+      ]
+    },
+    {
+      "tag": "auto_intent_3",
+      "patterns": [
+        "agar ham usko dikhayenge",
+        "to ham bus khulenge nahin ham kholkar koshish karegi",
+        "ham pichhle hafte bus pakde isliye dekhe khud kyon nahin",
+        "isliye nahin dekhne se koi dekh liya to"
+      ],
+      "responses": [
+        "Here is a simple explanation. I can explain this further if you want.",
+        "I can help explain this. Let me know if you want more details.",
+        "Let me explain this for you. Let me know if you want more details."
+      ]
+    },
+    {
+      "tag": "auto_intent_4",
+      "patterns": [
+        "chehra dikha dikha pahle dikha advance uske andar",
+        "uske andar to dikhao",
+        "dikhao dikhao interview dikhao"
+      ],
+      "responses": [
+        "Here\u2019s what I know about that. Feel free to ask a follow-up question.",
+        "This is how it works. Let me know if you want more details.",
+        "I can help explain this. I can explain this further if you want."
+      ]
+    },
+    {
+      "tag": "auto_intent_5",
+      "patterns": [
+        "secunderabad mein chuha hai pakda hai dabaya hai but kabhi dekha nahin",
+        "mera saman khada karne lag chuka hai pata hai"
+      ],
+      "responses": [
+        "Here is a simple explanation. I can explain this further if you want.",
+        "This is how it works. I can explain this further if you want.",
+        "I can help explain this. Let me know if you want more details.",
+        "Here\u2019s what I know about that. Feel free to ask a follow-up question."
+      ]
+    }
+  ]
+}

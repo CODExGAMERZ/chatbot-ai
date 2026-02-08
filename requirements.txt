@@ -1,0 +1,11 @@
+tensorflow
+nltk
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+langdetect
+deep-translator
+spacy
+openai
+tf-keras

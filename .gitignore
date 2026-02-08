@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model & Memory
+model/*.h5
+data/chat_history.json
+data/unrecognized.json
+data/llm_memory.json
+data/vector.index
+data/vector_meta.json
+
+# Logs
+*.log
