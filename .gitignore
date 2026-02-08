@@ -19,5 +19,12 @@ data/llm_memory.json
 data/vector.index
 data/vector_meta.json
 
+# Generated model artifacts
+model/*.pkl
+
+# Generated training outputs
+training/discovered_intents.txt
+
+
 # Logs
 *.log
