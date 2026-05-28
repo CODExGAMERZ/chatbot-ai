@@ -18,6 +18,7 @@ lemmatizer = WordNetLemmatizer()
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 MODEL_DIR = os.path.join(BASE_DIR, "model")
+os.makedirs(MODEL_DIR, exist_ok=True)
 
 INTENTS_FILE = os.path.join(DATA_DIR, "intents.json")
 WORDS_FILE = os.path.join(MODEL_DIR, "words.pkl")

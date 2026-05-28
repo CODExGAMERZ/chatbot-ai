@@ -45,9 +45,19 @@ with open(INTENTS_FILE, "r", encoding="utf-8") as f:
 with open(KNOWLEDGE_FILE, "r", encoding="utf-8") as f:
     knowledge = json.load(f)
 
-words = pickle.load(open(WORDS_FILE, "rb"))
-classes = pickle.load(open(CLASSES_FILE, "rb"))
-model = load_model(MODEL_FILE)
+words = None
+classes = None
+model = None
+
+try:
+    if os.path.exists(WORDS_FILE):
+        words = pickle.load(open(WORDS_FILE, "rb"))
+    if os.path.exists(CLASSES_FILE):
+        classes = pickle.load(open(CLASSES_FILE, "rb"))
+    if os.path.exists(MODEL_FILE):
+        model = load_model(MODEL_FILE)
+except Exception as e:
+    print(f"⚠️ Warning: Failed to load trained model files: {e}")
 
 conversation_state = {
     "last_user_message": None
@@ -155,6 +165,12 @@ def save_llm_example(question, answer):
         json.dump(data, f, indent=2)
 
 def run_text_chatbot():
+    if model is None or words is None or classes is None:
+        print("\n❌ Error: Trained chatbot model or pickle files not found!")
+        print("Please train the chatbot first by running:")
+        print("   python training/train_chatbot.py\n")
+        return
+
     print("Chatbot is running. Type quit or exit to stop.")
 
     while True:
